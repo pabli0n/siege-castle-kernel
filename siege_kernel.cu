@@ -87,7 +87,7 @@ __device__ float nextDouble(ll &seed)
 
 __device__ void fillNode(int nodes[])
 {
-    // Gained it from in-game recreation of stone placements.
+    // Got it from in-game recreation of stone placements.
 
     int store_82 = 2 + 8 * (0 + 16 * 10); nodes[0] = store_82;
     int store_194 = 2 + 8 * (1 + 16 * 8); nodes[1] = store_194;
